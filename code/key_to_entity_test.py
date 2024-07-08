@@ -3,8 +3,8 @@ import pandas as pd
 import os
 def key_to_entity(id):
     
-    API_KEY = 'AIzaSyDIC3blvZHi3X17jzHsyHN1TctL135arLo'
-    SEARCH_ENGINE_KEY = 'b2a6cd70a00c54897'
+    API_KEY = ''
+    SEARCH_ENGINE_KEY = ''
     search_query = id #/m/02pt6k_
 
     url = 'https://www.googleapis.com/customsearch/v1'
