@@ -1,0 +1,23 @@
+[preparation] build a .csv file with columns:
+fb_id, url, entity_name
+
+1000 queries 5 dollars -> 2million entities 10000 dollars
+
+1, sample many logical queries from a KG
+
+
+2, use google search API to extract the name of a specific token
+
+3, fill in a question template using that name+the logical form 
+ex.
+transform the following information to a question: "Tom stars A, A directed by ?"
+
+4, write a gpt script to ask the agent about this question, and write the answer to a file
+
+the file has columns:
+Logical_Query, Ground_Truth, GPT_Transformed_Question, LLM1_Answer, LLM1_Match(0/1),  LLM2_Answer...
+
+5, extract the answer and write into file
+
+6, compare it with the Ground Truth Value
+
